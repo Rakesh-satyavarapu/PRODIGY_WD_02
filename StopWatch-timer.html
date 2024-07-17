@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="watch.css">
+</head>
+<body>
+    <div class="container">
+        <svg width="500px" height="450px" class="svgg">
+        <circle r="150px" cx="250px" cy="245px" style="fill:black"></circle>
+        <foreignObject x="125" y="225" width="250px" height="200px">
+            <div class="timer">
+                00 : 00 : 00 : 000
+            </div>
+        </foreignObject>
+        </svg>
+    <div class="lapse">
+        <label id="laps">LAP :0      00 : 00 : 00 : 000</label>
+    </div>
+    <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+    </div>
+    </div>
+    <script src="watch.js"></script>
+</body>
+</html>

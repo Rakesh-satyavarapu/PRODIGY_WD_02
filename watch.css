@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('D:/ProdigyIntern/Task_2/background.jpg');
+    background-color: #282c34;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #38ca81;
+}
+
+.container {
+    text-align: center;
+}
+
+.svgg {
+    display: block;
+    margin: 0 auto;
+}
+
+.timer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #22dc8e;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #21d48aee;
+    color: #282c34;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #18ac13;
+}
+
+.lapse {
+    margin-top: 20px;
+}
+
+.lapse label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #faab00;
+}
